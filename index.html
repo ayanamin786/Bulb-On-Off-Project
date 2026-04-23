@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+
+<style>
+    #b1{
+        width: 100px;
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0);
+        background: #1eff00;
+        border-radius: 10px;
+        color: rgb(255, 0, 64);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 590px;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px black;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    #b2{
+        width: 100px;
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0);
+        background: #ff0000;
+        border-radius: 10px;
+        color: rgb(0, 255, 13);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 590px;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px black;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+</style>
+
+</head>
+<body>
+
+<img id="imgg" style="align-items: center; margin-left: 40%; " src="pngimg.com - bulb_PNG1247.png" alt="Bulb" width="200px"><br>
+
+<button onclick="document.getElementById('imgg').style.filter='grayscale(0%)'"  ondblclick="alert('Bulb Is Already On')"   id="b1">On</button><br>
+<button onclick="document.getElementById('imgg').style.filter='grayscale(100%)'" ondblclick="alert('Bulb Is Already Off')"  id="b2"> Off</button>
+
+</body>
+
+<script>
+
+a=document.getElementById('b1');
+b=document.getElementById('b2');
+c=a.style.filter='grayscale(0%)';
+
+
+
+</script>
+
+</html>
